@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric's Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Home Page</h1>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome Message</h2>
+        <p>Hi, welcome to my page! I'm currently studying several exciting courses in software development, including web and mobile app development, software project management, and more. Here, you can find details about my classes and schedule. Feel free to explore!</p>
+
+        <h2>Photo</h2>
+        <img src="images/profile.jpg" alt="Profile photo">
+
+        <h2>Units I'm Studying</h2>
+        <ul>
+            <li><a href="#">CSC321-A Web Application Development</a></li>
+            <li><a href="#">CSC322-A Mobile Application Development</a></li>
+            <li><a href="#">EGR401-F Capstone Design</a></li>
+            <li><a href="#">EGR405-D Internship Report and Presentation</a></li>
+            <li><a href="#">EGR427-A Software Project Management</a></li>
+            <li><a href="#">GST050-A Chapel Convocation</a></li>
+        </ul>
+    </section>
+
+    <section class="timetable">
+        <h2>My Class Timetable</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSC321-A Web Application Development</td>
+                    <td>MW</td>
+                    <td>05:30-07:00PM</td>
+                    <td>Knisley, Benjamin David</td>
+                </tr>
+                <tr>
+                    <td>CSC322-A Mobile Application Development</td>
+                    <td>TR</td>
+                    <td>02:00-03:30PM</td>
+                    <td>Grissom, Daniel T.</td>
+                </tr>
+                <tr>
+                    <td>EGR401-F Capstone Design</td>
+                    <td>W</td>
+                    <td>01:15-04:15PM</td>
+                    <td>Sanders, Benjamin</td>
+                </tr>
+                <tr>
+                    <td>EGR405-D Internship Report and Presentation</td>
+                    <td>R</td>
+                    <td>03:45-04:45PM</td>
+                    <td>Anklam, Mark R.</td>
+                </tr>
+                <tr>
+                    <td>EGR427-A Software Project Management</td>
+                    <td>TR</td>
+                    <td>05:30-07:00PM</td>
+                    <td>Knaster, Andrew Gregg</td>
+                </tr>
+                <tr>
+                    <td>GST050-A Chapel Convocation</td>
+                    <td>T</td>
+                    <td>09:00-10:00AM</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="form-section">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
